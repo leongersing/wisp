@@ -62,4 +62,15 @@
   
 }
 
+- (void)testMap{
+  NSArray *nums = [NSArray from:0 to:10];
+  NSArray *formattedStrings = [nums map:^id(id item) {
+    return [NSString stringWithFormat:@"item %@", item];
+  }];
+  
+  for (id item in formattedStrings) {
+    STAssertTrue([item isKindOfClass:[NSString class]], @"there can be only strings");
+  }
+}
+
 @end

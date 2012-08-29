@@ -10,4 +10,6 @@
 
 @interface NSArray (WispComprehension)
 - (NSArray *)itemsWhere:(BOOL(^)(id item))iterator;
+
+- (NSArray *)map:(id(^)(id item))func;
 @end
