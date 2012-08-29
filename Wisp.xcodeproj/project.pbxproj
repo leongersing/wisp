@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382B9CCE15EDDC3E007BBA67 /* NSArray+WispSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B9CCD15EDDC3E007BBA67 /* NSArray+WispSequence.m */; };
+		382B9CD015EDDC42007BBA67 /* NSArray+WispSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B9CCD15EDDC3E007BBA67 /* NSArray+WispSequence.m */; };
+		382B9CD315EDDD6C007BBA67 /* WispSeqTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B9CD215EDDD6C007BBA67 /* WispSeqTests.m */; };
+		3843538515EDCD8F00099EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3843538415EDCD8F00099EA9 /* Foundation.framework */; };
+		3843538A15EDCD8F00099EA9 /* Wisp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3843538915EDCD8F00099EA9 /* Wisp.h */; };
+		3843539415EDCD9000099EA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3843539315EDCD9000099EA9 /* SenTestingKit.framework */; };
+		3843539615EDCD9000099EA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3843539515EDCD9000099EA9 /* UIKit.framework */; };
+		3843539715EDCD9000099EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3843538415EDCD8F00099EA9 /* Foundation.framework */; };
+		3843539A15EDCD9000099EA9 /* libWisp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3843538115EDCD8F00099EA9 /* libWisp.a */; };
+		384353A015EDCD9000099EA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3843539E15EDCD9000099EA9 /* InfoPlist.strings */; };
+		384353A315EDCD9000099EA9 /* WispComprehensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 384353A215EDCD9000099EA9 /* WispComprehensionTests.m */; };
+		384353AF15EDCF3000099EA9 /* WispComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 384353AE15EDCF3000099EA9 /* WispComprehension.m */; };
+		384353B015EDD45800099EA9 /* WispComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 384353AE15EDCF3000099EA9 /* WispComprehension.m */; };
+		3849BA8C15EDE33200D66B28 /* NSArray+WispComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3849BA8B15EDE33200D66B28 /* NSArray+WispComprehension.m */; };
+		3849BA8D15EDE33200D66B28 /* NSArray+WispComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3849BA8B15EDE33200D66B28 /* NSArray+WispComprehension.m */; };
+		3849BA9115EDE3A300D66B28 /* NSObject+WispComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3849BA9015EDE3A300D66B28 /* NSObject+WispComprehension.m */; };
+		3849BA9215EDE3A300D66B28 /* NSObject+WispComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3849BA9015EDE3A300D66B28 /* NSObject+WispComprehension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3843539815EDCD9000099EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3843537815EDCD8F00099EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3843538015EDCD8F00099EA9;
+			remoteInfo = Wisp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3843537F15EDCD8F00099EA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3843538A15EDCD8F00099EA9 /* Wisp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		382B9CCC15EDDC3E007BBA67 /* NSArray+WispSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WispSequence.h"; sourceTree = "<group>"; };
+		382B9CCD15EDDC3E007BBA67 /* NSArray+WispSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WispSequence.m"; sourceTree = "<group>"; };
+		382B9CD115EDDD6C007BBA67 /* WispSeqTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WispSeqTests.h; sourceTree = "<group>"; };
+		382B9CD215EDDD6C007BBA67 /* WispSeqTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WispSeqTests.m; sourceTree = "<group>"; };
+		3843538115EDCD8F00099EA9 /* libWisp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWisp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3843538415EDCD8F00099EA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3843538815EDCD8F00099EA9 /* Wisp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wisp-Prefix.pch"; sourceTree = "<group>"; };
+		3843538915EDCD8F00099EA9 /* Wisp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wisp.h; sourceTree = "<group>"; };
+		3843539215EDCD9000099EA9 /* WispTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WispTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3843539315EDCD9000099EA9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3843539515EDCD9000099EA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3843539D15EDCD9000099EA9 /* WispTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WispTests-Info.plist"; sourceTree = "<group>"; };
+		3843539F15EDCD9000099EA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		384353A115EDCD9000099EA9 /* WispComprehensionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WispComprehensionTests.h; sourceTree = "<group>"; };
+		384353A215EDCD9000099EA9 /* WispComprehensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WispComprehensionTests.m; sourceTree = "<group>"; };
+		384353AD15EDCF3000099EA9 /* WispComprehension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WispComprehension.h; sourceTree = "<group>"; };
+		384353AE15EDCF3000099EA9 /* WispComprehension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WispComprehension.m; sourceTree = "<group>"; };
+		3849BA8A15EDE33200D66B28 /* NSArray+WispComprehension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WispComprehension.h"; sourceTree = "<group>"; };
+		3849BA8B15EDE33200D66B28 /* NSArray+WispComprehension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WispComprehension.m"; sourceTree = "<group>"; };
+		3849BA8F15EDE3A300D66B28 /* NSObject+WispComprehension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WispComprehension.h"; sourceTree = "<group>"; };
+		3849BA9015EDE3A300D66B28 /* NSObject+WispComprehension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WispComprehension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3843537E15EDCD8F00099EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3843538515EDCD8F00099EA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3843538E15EDCD9000099EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3843539415EDCD9000099EA9 /* SenTestingKit.framework in Frameworks */,
+				3843539615EDCD9000099EA9 /* UIKit.framework in Frameworks */,
+				3843539715EDCD9000099EA9 /* Foundation.framework in Frameworks */,
+				3843539A15EDCD9000099EA9 /* libWisp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3843537615EDCD8F00099EA9 = {
+			isa = PBXGroup;
+			children = (
+				3843538615EDCD8F00099EA9 /* Wisp */,
+				3843539B15EDCD9000099EA9 /* WispTests */,
+				3843538315EDCD8F00099EA9 /* Frameworks */,
+				3843538215EDCD8F00099EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3843538215EDCD8F00099EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3843538115EDCD8F00099EA9 /* libWisp.a */,
+				3843539215EDCD9000099EA9 /* WispTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3843538315EDCD8F00099EA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3843538415EDCD8F00099EA9 /* Foundation.framework */,
+				3843539315EDCD9000099EA9 /* SenTestingKit.framework */,
+				3843539515EDCD9000099EA9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3843538615EDCD8F00099EA9 /* Wisp */ = {
+			isa = PBXGroup;
+			children = (
+				3843538815EDCD8F00099EA9 /* Wisp-Prefix.pch */,
+				3843538915EDCD8F00099EA9 /* Wisp.h */,
+				384353AD15EDCF3000099EA9 /* WispComprehension.h */,
+				384353AE15EDCF3000099EA9 /* WispComprehension.m */,
+				382B9CCC15EDDC3E007BBA67 /* NSArray+WispSequence.h */,
+				382B9CCD15EDDC3E007BBA67 /* NSArray+WispSequence.m */,
+				3849BA8A15EDE33200D66B28 /* NSArray+WispComprehension.h */,
+				3849BA8B15EDE33200D66B28 /* NSArray+WispComprehension.m */,
+				3849BA8F15EDE3A300D66B28 /* NSObject+WispComprehension.h */,
+				3849BA9015EDE3A300D66B28 /* NSObject+WispComprehension.m */,
+			);
+			path = Wisp;
+			sourceTree = "<group>";
+		};
+		3843539B15EDCD9000099EA9 /* WispTests */ = {
+			isa = PBXGroup;
+			children = (
+				3843539C15EDCD9000099EA9 /* Supporting Files */,
+				384353A115EDCD9000099EA9 /* WispComprehensionTests.h */,
+				384353A215EDCD9000099EA9 /* WispComprehensionTests.m */,
+				382B9CD115EDDD6C007BBA67 /* WispSeqTests.h */,
+				382B9CD215EDDD6C007BBA67 /* WispSeqTests.m */,
+			);
+			path = WispTests;
+			sourceTree = "<group>";
+		};
+		3843539C15EDCD9000099EA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3843539D15EDCD9000099EA9 /* WispTests-Info.plist */,
+				3843539E15EDCD9000099EA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3843538015EDCD8F00099EA9 /* Wisp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384353A615EDCD9000099EA9 /* Build configuration list for PBXNativeTarget "Wisp" */;
+			buildPhases = (
+				3843537D15EDCD8F00099EA9 /* Sources */,
+				3843537E15EDCD8F00099EA9 /* Frameworks */,
+				3843537F15EDCD8F00099EA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wisp;
+			productName = Wisp;
+			productReference = 3843538115EDCD8F00099EA9 /* libWisp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3843539115EDCD9000099EA9 /* WispTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384353A915EDCD9000099EA9 /* Build configuration list for PBXNativeTarget "WispTests" */;
+			buildPhases = (
+				3843538D15EDCD9000099EA9 /* Sources */,
+				3843538E15EDCD9000099EA9 /* Frameworks */,
+				3843538F15EDCD9000099EA9 /* Resources */,
+				3843539015EDCD9000099EA9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3843539915EDCD9000099EA9 /* PBXTargetDependency */,
+			);
+			name = WispTests;
+			productName = WispTests;
+			productReference = 3843539215EDCD9000099EA9 /* WispTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3843537815EDCD8F00099EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Leon Gersing";
+			};
+			buildConfigurationList = 3843537B15EDCD8F00099EA9 /* Build configuration list for PBXProject "Wisp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3843537615EDCD8F00099EA9;
+			productRefGroup = 3843538215EDCD8F00099EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3843538015EDCD8F00099EA9 /* Wisp */,
+				3843539115EDCD9000099EA9 /* WispTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3843538F15EDCD9000099EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384353A015EDCD9000099EA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3843539015EDCD9000099EA9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3843537D15EDCD8F00099EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384353AF15EDCF3000099EA9 /* WispComprehension.m in Sources */,
+				382B9CCE15EDDC3E007BBA67 /* NSArray+WispSequence.m in Sources */,
+				3849BA8C15EDE33200D66B28 /* NSArray+WispComprehension.m in Sources */,
+				3849BA9115EDE3A300D66B28 /* NSObject+WispComprehension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3843538D15EDCD9000099EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384353A315EDCD9000099EA9 /* WispComprehensionTests.m in Sources */,
+				384353B015EDD45800099EA9 /* WispComprehension.m in Sources */,
+				382B9CD015EDDC42007BBA67 /* NSArray+WispSequence.m in Sources */,
+				382B9CD315EDDD6C007BBA67 /* WispSeqTests.m in Sources */,
+				3849BA8D15EDE33200D66B28 /* NSArray+WispComprehension.m in Sources */,
+				3849BA9215EDE3A300D66B28 /* NSObject+WispComprehension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3843539915EDCD9000099EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3843538015EDCD8F00099EA9 /* Wisp */;
+			targetProxy = 3843539815EDCD9000099EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3843539E15EDCD9000099EA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3843539F15EDCD9000099EA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		384353A415EDCD9000099EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		384353A515EDCD9000099EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		384353A715EDCD9000099EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Wisp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wisp/Wisp-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		384353A815EDCD9000099EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Wisp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wisp/Wisp-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		384353AA15EDCD9000099EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wisp/Wisp-Prefix.pch";
+				INFOPLIST_FILE = "WispTests/WispTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		384353AB15EDCD9000099EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wisp/Wisp-Prefix.pch";
+				INFOPLIST_FILE = "WispTests/WispTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3843537B15EDCD8F00099EA9 /* Build configuration list for PBXProject "Wisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384353A415EDCD9000099EA9 /* Debug */,
+				384353A515EDCD9000099EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384353A615EDCD9000099EA9 /* Build configuration list for PBXNativeTarget "Wisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384353A715EDCD9000099EA9 /* Debug */,
+				384353A815EDCD9000099EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384353A915EDCD9000099EA9 /* Build configuration list for PBXNativeTarget "WispTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384353AA15EDCD9000099EA9 /* Debug */,
+				384353AB15EDCD9000099EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3843537815EDCD8F00099EA9 /* Project object */;
+}
